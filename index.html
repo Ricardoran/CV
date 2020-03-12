@@ -1,33 +1,201 @@
 <!DOCTYPE html> <!-- This means HTML5 version -->
 <html>
+
 	<head>
 		<meta charset="utf-8">
-		<title>😁 Haoran's Home Page</title>
+		<title>😁 Haoran's Home Page</title> <!-- This is the tile shown in the tab-->
 	</head>
 
-	<body> <!--We can use pure HTML to layout by table-->
-		<table cellspacing="30">
+	<body> <!--We can use pure HTML to layout images and texts by table-->
+
+		<table  cellspacing="30">
 			<tr>
-				<td>
+				<td align="left">
 					<img src="haoran.jpg" alt="Haoran's photo" height="150">
 				</td>
 
-				<td>
+				<td align="left">
 					<h1> Haoran Zhang </h1>
-					<p>Look up his homepage in github ->> <strong><a href="https://github.com/Ricardoran"> Haoran </a></strong></p>
+					<p>
+						Los Angeles || <a href="tel:+12133745152">(213)-374-5152</a> || <a href="mailto:hzhang07@usc.edu">hzhang07@usc.edu</a> || <a href="mailto:ricardo15222024@gmail.com">ricardo15222024@gmail.com</a>
+					</p>
 				</td>
 			</tr>
 		</table>
-	   	<p><em>He is a student in <strong>USC</strong></em></p>
-		<p><em>He is a student in <strong>UOW</strong></em></p>
-		<p><em>He is a student in <strong>BJTU</strong></em></p>
+
+		<!--Main body of my CV-->
+		<h3><em>Education</em></h3>
+		<table>
+			<tr>
+				<td>
+					<strong>University of Southern California (USC), Los Angeles, CA </strong>
+					<ul>
+						<li>Master of Science, Computer Science</li>
+						<li>Graduate Coursework: Analysis of Algorithms; Computer Networks, Database Systems</li>
+					</ul>
+				</td>
+
+				<td align="left">
+					<strong>May 2021</strong>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong>Beijing Jiaotong University (BJTU), Beijing, China. June,2019</strong>
+					<ul>
+						<li>Bachelor of Engineering, Mechatronics Engineering</li>
+						<li>Undergraduate Coursework: C Programming; Electrical System; Linear Algebra</li>
+					</ul>
+				</td>
+
+				<td align="left">
+					<strong>July 2019</strong>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong>University of Wollongong (UOW), Wollongong, Australia. June,2019</strong>
+					<ul>
+						<li>Bachelor of Engineering (Honours), Mechatronics Engineering</li>
+						<li>Undergraduate Coursework: Robotics; Control Theory; Digital Signal Processing; Microcontroller</li>
+					</ul>
+				</td>
+
+				<td align="left">
+					<strong>July 2019</strong>
+				</td>
+			</tr>
+		</table>
 		<hr>
 
+		<h3><em>Honours</em></h3>
 		<ul>
-			<li>2015.8 - 2017.7 BJTU</li>
-		    <li>2017.7 - 2019.6 UOW</li>
-		    <li>2019.8 - 2021.5 USC</li>
+			<li>Awarded the Undergraduate Academic Excellence Scholarship for 2017 in BJTU.</li>
+			<li>Awarded the Undergraduate Excellence Scholarship for 2017, 2018 and 2019 in UOW.</li>
+			<li>Thesis “Pedestrian Lane Sensing with Deep Networks” was awarded as the Highest Distinction (HD).</li>
 		</ul>
+		<hr>
+
+		<!-- Technical Skills Display-->
+		<h3><em>Technical Skills</em></h3>
+		<table>
+			<tr>
+				<td>
+					<strong>Programming Languages</strong>
+				</td>
+				<td>
+					Java, MATLAB, C & C++, Python, SQL
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong>Development Tools</strong>
+				</td>
+				<td>
+					Autodesk CAD, MySQL, OpenCV, IntelliJ IDEA, MS Project
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong>Robotics</strong>
+				</td>
+				<td>
+					Forward & inverse kinematics analysis, trajectory planning
+				</td>
+			</tr>
+		</table>
+		<hr>
+
+		<!-- Work Experience Display-->
+		<h3><em>Work Experience</em></h3>
+		<p>Assistant Engineer Intern, Institute of Automation, Chinese Academy of Sciences, Beijing China.</p>
+		<ul>
+			<li>Developed a binocular system based on industrial robots for moving assembly.</li>
+			<li>Calibrated “hand-eye” position & orientation of the robot.</li>
+			<li>Designed the user interface using C++.</li>
+			<li>Negotiated with customers for project progress.</li>
+			<li>Conducted computer-aided design for 3D modelling and system simulation.</li>
+		</ul>
+		<hr>
+
+		<!--Project Experience Display-->
+		<h3><em>Project Experience</em></h3>
+		<table>
+			<tr>
+				<td>
+					<strong>Computer Network Project: Socket Programming</strong>
+					<ul>
+						<li>Established a TCP and UDP connection between AWS Server and Client.</li>
+						<li>Implemented Dijkstra Algorithm to compute the shortest path based on client’s query.</li>
+						<li>Constructed the network in Ubuntu system to complete socket programming tasks using C++.</li>
+					</ul>
+				</td>
+
+				<td align="left">
+					<strong>Mar 2020 - April 2020</strong>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong>
+						Java Project: Minesweeper Games Development
+					</strong>
+					<p>This project made a complete design for the minesweeping game based on Java.</p>
+					<ul>
+						<li>Build a grid-based graphical UI design for users.</li>
+						<li>Applied DFS algorithm to recursively look for surrounding mine-free areas.</li>
+						<li>Gave instant feedback based on user choices, such as flipping or guessing, and displayed points and status.</li>
+					</ul>
+				</td>
+				<td align="left">
+					<strong>
+						Sep 2019 - Nov 2019
+					</strong>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong>MATLAB Project: Pedestrian lane Recognition and Segmentation     </strong>
+					<ul>
+						<li>Collected a large number of pedestrian lane images.</li>
+						<li>Developed MATLAB programs to automatically label, crop image datasets.</li>
+			   			<li>Used the SegNet architecture to train the datasets to achieve semantic segmentation of lane regions.</li>
+					</ul>
+				</td>
+				<td align="left">
+					<strong>June 2019 - May 2019</strong>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong>Python Project: “SnookMe” Interactive Pool Training System</strong>
+					<p>This project developed a pool-game training system for players. The main function of this system is to predict the trajectory of balls.</p>
+					<p><a href="https://www.youtube.com/watch?feature=youtu.be&v=LKZnHyGPjR4&app=desktop">See this demo for details</details></a></p>
+					<ul>
+						<li>Developed a safe and compact design for hardware system including Raspberry Pi, camera and projector.</li>
+
+						<li>Used computer vision algorithms based on OpenCV to conduct color calibrations for balls with different colors.</li>
+
+						<li>Calculated and predicted trajectories of the ball in real time on the pool table.</li>
+					</ul>
+				</td>
+				<td align="left">
+					<strong>
+						Feb 2018 - Oct 2018
+					</strong>
+				</td>
+			</tr>
+		</table>
+		
+		
+		<hr>
 
 
 	</body>
